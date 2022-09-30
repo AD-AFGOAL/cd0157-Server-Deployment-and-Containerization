@@ -1,9 +1,9 @@
 apiVersion: v1
 data:
   mapRoles: |
-    -groups:
+    - groups:
       - system:masters
-      rolearn : arn:aws:iam::922569366551:role/UdacityFlaskDeployCBKubectlRole
+      rolearn: arn:aws:iam::922569366551:role/UdacityFlaskDeployCBKubectlRole
       username: build
     - groups:
       - system:bootstrappers
